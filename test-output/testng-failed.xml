@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test name=" Add inventory and OrderProcessing (failed)">
+    <classes>
+      <class name="Test.TestOrderProcessing">
+        <methods>
+          <include name="runTaskTest"/>
+          <include name="createPicklistTest"/>
+          <include name="talentSelectionTest"/>
+          <include name="setUp"/>
+          <include name="logingTest"/>
+          <include name="cleanup"/>
+          <include name="saleOrderPageTest"/>
+        </methods>
+      </class> <!-- Test.TestOrderProcessing -->
+      <class name="Test.TestAddInventory">
+        <methods>
+          <include name="createGRN"/>
+          <include name="createPOTest"/>
+        </methods>
+      </class> <!-- Test.TestAddInventory -->
+    </classes>
+  </test> <!--  Add inventory and OrderProcessing (failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
