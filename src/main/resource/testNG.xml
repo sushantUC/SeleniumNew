@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">-->
+<suite name = "Uniware Test Suite">
+    <test name ="Unicommerce WebApp Functioanlity Test Cases">
+        <classes>
+                 <class name="testCases.TestLogingPage"></class>
+                <class name="testCases.TestAddInventory"></class>
+                <class name="testCases.TestOrderProcessing"></class>
+
+            <!-- test comment
+            -->
+
+        </classes>
+
+    </test>
+
+</suite>

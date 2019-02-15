@@ -8,7 +8,7 @@ System info: host: &amp;apos;Sushant-MacBook-Air.local&amp;apos;, ip: &amp;apos;
 Driver info: driver.version: Driver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: a0309053-3252-2b48-9f30-d190b084697a">
-      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+        <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Sushant-MacBook-Air.local', ip: '192.168.2.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
 Driver info: driver.version: Driver
@@ -17,8 +17,8 @@ Session ID: a0309053-3252-2b48-9f30-d190b084697a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
-	at util.Driver.close(Driver.java:39)
-	at util.BaseTest.cleanup(BaseTest.java:20)
+	at base.Driver.close(Driver.java:39)
+	at base.BaseTest.cleanup(BaseTest.java:20)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
 Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused (Connection refused)
 	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
@@ -342,7 +342,7 @@ System info: host: &amp;apos;Sushant-MacBook-Air.local&amp;apos;, ip: &amp;apos;
 Driver info: driver.version: RemoteWebDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: a0309053-3252-2b48-9f30-d190b084697a">
-      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+        <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Sushant-MacBook-Air.local', ip: '192.168.2.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
 Driver info: driver.version: RemoteWebDriver
@@ -351,7 +351,7 @@ Session ID: a0309053-3252-2b48-9f30-d190b084697a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
-	at pages.CreatePicklist.createInvoicingPicklist(CreatePicklist.java:29)
+	at pages.InvoicingPicklistClass.createInvoicingPicklist(CreatePicklist.java:29)
 	at Test.TestOrderProcessing.createPicklistTest(TestOrderProcessing.java:64)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
 Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused (Connection refused)

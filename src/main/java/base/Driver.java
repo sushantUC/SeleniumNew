@@ -1,4 +1,4 @@
-package util;
+package base;
 
 import config.Config;
 import java.util.concurrent.TimeUnit;
@@ -34,7 +34,7 @@ public class Driver {
 
 
 
-    public static void close(){
+   /* public static void close(){
         System.out.println("Browser Close");
         driver.close();
         driver=null;
@@ -44,6 +44,6 @@ public class Driver {
         System.out.println("Browser Quit");
         driver.quit();
         driver=null;
-    }
+    }*/
 
 }

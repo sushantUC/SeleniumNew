@@ -9,8 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import util.BaseTest;
-import static util.Driver.driver;
+import base.BaseTest;
+import static base.Driver.driver;
 
 /**
  * Created by sushant on 05/10/18.
@@ -58,7 +58,7 @@ public class POCreate extends BaseTest {
 
         WebElement vendorCode = driver.findElement(By.xpath("(//input[@class='select2-input'])[5]"));
         vendorCode.click();
-        vendorCode.sendKeys("skm008");
+        vendorCode.sendKeys(Config.VendorCode);
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[@class='select2-result-label']")).click();
         Thread.sleep(3000);
@@ -66,7 +66,7 @@ public class POCreate extends BaseTest {
         WebElement SkuDropdown1 =driver.findElement(By.xpath("//*[text()='Name/ SKU/ Vendor SKU']"));
         Thread.sleep(2000);
         SkuDropdown1.click();
-        SkuDropdown1.sendKeys("PRODCODE003");
+        SkuDropdown1.sendKeys(Config.SKU);
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[@class='select2-result-label']")).click();
 

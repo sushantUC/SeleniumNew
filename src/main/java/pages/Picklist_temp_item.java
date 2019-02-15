@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import static util.Driver.driver;
+import static base.Driver.driver;
 
 /**
  * Created by sushant on 14/01/19.

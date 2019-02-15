@@ -2,8 +2,8 @@ package pages;
 
 import config.Config;
 import java.util.concurrent.TimeUnit;
-import util.BaseTest;
-import static util.Driver.driver;
+import base.BaseTest;
+import static base.Driver.driver;
 
 /**
  * Created by sushant on 25/07/18.

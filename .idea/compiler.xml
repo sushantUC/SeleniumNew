@@ -20,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="qa-automation" target="1.8" />
       <module name="TestNG_Selenium01" target="1.5" />
     </bytecodeTargetLevel>
   </component>

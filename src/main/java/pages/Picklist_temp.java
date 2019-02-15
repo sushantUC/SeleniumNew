@@ -4,8 +4,8 @@ import config.Config;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import util.BaseTest;
-import static util.Driver.driver;
+import base.BaseTest;
+import static base.Driver.driver;
 
 /**
  * Created by sushant on 02/08/18.

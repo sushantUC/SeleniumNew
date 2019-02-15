@@ -1,8 +1,8 @@
 package pages;
 
 import org.openqa.selenium.By;
-import util.BaseTest;
-import static util.Driver.driver;
+import base.BaseTest;
+import static base.Driver.driver;
 
 /**
  * Created by sushant on 05/12/18.
